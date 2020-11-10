@@ -59,6 +59,9 @@ for path in list_file:
             class_id=0
         if (root[i][0].text=="with_mask"):
             class_id=1
+        if (root[i][0].text=="mask_weared_incorrect"):
+            class_id=2
+        
 
         print(x_yolo,y_yolo,width_yolo,height_yolo,class_id)
         
